@@ -1,12 +1,8 @@
 name: UnitedRestoration
 version: 0.0.1
 main: org.unitedlands.restoration.UnitedRestoration
-api-version: 1.18
+api-version: "26.2"
 description: UnitedLands chunk restoration
 author: Theriel_
-commands:
-  unitedrestoration:
-    description: UnitedRestoration admin commands.
-    permission: united.restoration.admin
-    default: op
-    stopaliases: [urst]
+depend: [UnitedLib]
+softdepend: [UnitedLands, Towny]

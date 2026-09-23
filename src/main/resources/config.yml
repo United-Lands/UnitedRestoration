@@ -1,2 +1,14 @@
 chunk-copy:
   chunks-per-tick: 1
+
+current-task:
+  running: false
+  source-world: ""
+  target-world: ""
+  x1: 0
+  z1: 0
+  x2: 0
+  z2: 0
+  current-index: 0
+  copy-biomes: true
+  only-biomes: false
